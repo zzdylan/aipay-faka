@@ -18,6 +18,8 @@ class Aipay {
 
     public function __construct(){
     	$this->apiUrl = config('aipay.api_url');
+    	$this->mchid = config('aipay.mchid');
+    	$this->key = config('aipay.key');
     	$this->native_url   = $this->apiUrl.'/api/native';
         $this->jsapi_url   = $this->apiUrl.'/api/jsapi';
         $this->micropay_url   = $this->apiUrl.'/api/micropay';

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'mchid' => '1554208111',
-    'key'   => 'nwcpHlrh7LIq4KAE',
+    'mchid' => '',
+    'key'   => '',
     'api_url' => 'https://www.aipay6.com',
 ];
