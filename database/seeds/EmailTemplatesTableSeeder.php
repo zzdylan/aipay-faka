@@ -21,9 +21,9 @@ class EmailTemplatesTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => '测试模板',
-                'content_blade' => '<p></p><p></p><h1>{{$order-&gt;trade_no}}</h1><p><b>​</b>​<br></p>',
+            'content_blade' => '<p></p><p></p><p></p><h1>{{$order-&gt;trade_no}}</h1><p><b>​</b>​<br></p><p>@foreach($order-&gt;cards as $card)</p><p>{{$card-&gt;content}}</p><p>@endforeach</p>',
                 'created_at' => '2019-08-13 18:29:40',
-                'updated_at' => '2019-08-13 19:50:32',
+                'updated_at' => '2020-03-02 13:38:03',
             ),
         ));
         

@@ -22,9 +22,9 @@ class AdminConfigTableSeeder extends Seeder
                 'id' => 1,
                 'name' => '__configx__',
                 'value' => 'do not delete',
-                'description' => '{"base.site_open":{"options":[],"element":"yes_or_no","help":"\\u7f51\\u7ad9\\u662f\\u5426\\u5f00\\u542f","name":"\\u7f51\\u7ad9\\u5f00\\u542f","order":5},"base.site_name":{"options":[],"element":"normal","help":"\\u7f51\\u7ad9\\u540d\\u79f0","name":"\\u7f51\\u7ad9\\u540d\\u79f0","order":10},"base.site_logo":{"options":[],"element":"image","help":"\\u7f51\\u7ad9logo","name":"\\u7f51\\u7ad9logo","order":15},"mail.driver":{"options":{"smtp":"smtp"},"element":"normal","help":"\\u90ae\\u4ef6\\u9a71\\u52a8","name":"\\u90ae\\u4ef6\\u9a71\\u52a8","order":5},"mail.host":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u4e3b\\u673a,\\u5982smtp.163.com","name":"\\u90ae\\u4ef6\\u4e3b\\u673a","order":10},"mail.port":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u7aef\\u53e3","name":"\\u90ae\\u4ef6\\u7aef\\u53e3","order":15},"mail.from.address":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u5730\\u5740","name":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u5730\\u5740","order":20},"mail.from.name":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u59d3\\u540d","name":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u59d3\\u540d","order":25},"mail.username":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u7528\\u6237\\u540d","name":"\\u90ae\\u4ef6\\u7528\\u6237\\u540d","order":30},"mail.password":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u5bc6\\u7801","name":"\\u90ae\\u4ef6\\u5bc6\\u7801","order":35},"notice.open":{"options":[],"element":"yes_or_no","help":"\\u662f\\u5426\\u5f00\\u542f\\u516c\\u544a","name":"\\u662f\\u5426\\u5f00\\u542f\\u516c\\u544a","order":5},"notice.content":{"options":[],"element":"editor","help":"\\u516c\\u544a\\u5185\\u5bb9","name":"\\u516c\\u544a\\u5185\\u5bb9","order":10},"notice.button_title":{"options":[],"element":"normal","help":"\\u516c\\u544a\\u6309\\u94ae\\u6807\\u9898","name":"\\u516c\\u544a\\u6309\\u94ae\\u6807\\u9898","order":15},"notice.button_url":{"options":[],"element":"normal","help":"\\u516c\\u544a\\u94fe\\u63a5","name":"\\u516c\\u544a\\u94fe\\u63a5","order":20},"payjs.mchid":{"options":[],"element":"normal","help":"payjs\\u5546\\u6237\\u53f7","name":"payjs\\u5546\\u6237\\u53f7","order":5},"payjs.key":{"options":[],"element":"normal","help":"payjs\\u901a\\u4fe1\\u5bc6\\u94a5","name":"payjs\\u901a\\u4fe1\\u5bc6\\u94a5","order":10},"payjs.wechat":{"options":[],"element":"yes_or_no","help":"\\u662f\\u5426\\u5f00\\u542f\\u5fae\\u4fe1\\u652f\\u4ed8","name":"\\u662f\\u5426\\u5f00\\u542f\\u5fae\\u4fe1\\u652f\\u4ed8","order":15},"payjs.alipay":{"options":[],"element":"yes_or_no","help":"\\u662f\\u5426\\u5f00\\u542f\\u652f\\u4ed8\\u5b9d\\u652f\\u4ed8","name":"\\u662f\\u5426\\u5f00\\u542f\\u652f\\u4ed8\\u5b9d\\u652f\\u4ed8","order":20}}',
+                'description' => '{"base.site_open":{"options":[],"element":"yes_or_no","help":"\\u7f51\\u7ad9\\u662f\\u5426\\u5f00\\u542f","name":"\\u7f51\\u7ad9\\u5f00\\u542f","order":5},"base.site_name":{"options":[],"element":"normal","help":"\\u7f51\\u7ad9\\u540d\\u79f0","name":"\\u7f51\\u7ad9\\u540d\\u79f0","order":10},"base.site_logo":{"options":[],"element":"image","help":"\\u7f51\\u7ad9logo","name":"\\u7f51\\u7ad9logo","order":15},"mail.driver":{"options":{"smtp":"smtp"},"element":"normal","help":"\\u90ae\\u4ef6\\u9a71\\u52a8","name":"\\u90ae\\u4ef6\\u9a71\\u52a8","order":5},"mail.host":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u4e3b\\u673a,\\u5982smtp.163.com","name":"\\u90ae\\u4ef6\\u4e3b\\u673a","order":10},"mail.port":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u7aef\\u53e3","name":"\\u90ae\\u4ef6\\u7aef\\u53e3","order":15},"mail.from.address":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u5730\\u5740","name":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u5730\\u5740","order":20},"mail.from.name":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u59d3\\u540d","name":"\\u90ae\\u4ef6\\u53d1\\u4ef6\\u4eba\\u59d3\\u540d","order":25},"mail.username":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u7528\\u6237\\u540d","name":"\\u90ae\\u4ef6\\u7528\\u6237\\u540d","order":30},"mail.password":{"options":[],"element":"normal","help":"\\u90ae\\u4ef6\\u5bc6\\u7801","name":"\\u90ae\\u4ef6\\u5bc6\\u7801","order":35},"notice.open":{"options":[],"element":"yes_or_no","help":"\\u662f\\u5426\\u5f00\\u542f\\u516c\\u544a","name":"\\u662f\\u5426\\u5f00\\u542f\\u516c\\u544a","order":5},"notice.content":{"options":[],"element":"editor","help":"\\u516c\\u544a\\u5185\\u5bb9","name":"\\u516c\\u544a\\u5185\\u5bb9","order":10},"notice.button_title":{"options":[],"element":"normal","help":"\\u516c\\u544a\\u6309\\u94ae\\u6807\\u9898","name":"\\u516c\\u544a\\u6309\\u94ae\\u6807\\u9898","order":15},"notice.button_url":{"options":[],"element":"normal","help":"\\u516c\\u544a\\u94fe\\u63a5","name":"\\u516c\\u544a\\u94fe\\u63a5","order":20},"aipay.mchid":{"options":[],"element":"normal","help":"\\u7231\\u652f\\u4ed8\\u5546\\u6237\\u53f7","name":"\\u7231\\u652f\\u4ed8\\u5546\\u6237\\u53f7","order":5},"aipay.key":{"options":[],"element":"normal","help":"\\u7231\\u652f\\u4ed8\\u901a\\u4fe1\\u5bc6\\u94a5","name":"\\u7231\\u652f\\u4ed8\\u901a\\u4fe1\\u5bc6\\u94a5","order":10},"aipay.wechat":{"options":[],"element":"yes_or_no","help":"\\u662f\\u5426\\u5f00\\u542f\\u5fae\\u4fe1\\u652f\\u4ed8","name":"\\u662f\\u5426\\u5f00\\u542f\\u5fae\\u4fe1\\u652f\\u4ed8","order":15},"aipay.alipay":{"options":[],"element":"yes_or_no","help":"\\u662f\\u5426\\u5f00\\u542f\\u652f\\u4ed8\\u5b9d\\u652f\\u4ed8","name":"\\u662f\\u5426\\u5f00\\u542f\\u652f\\u4ed8\\u5b9d\\u652f\\u4ed8","order":20},"__configx_tabs__":{"options":{"base":"\\u57fa\\u672c\\u8bbe\\u7f6e","mail":"\\u90ae\\u4ef6\\u8bbe\\u7f6e","notice":"\\u516c\\u544a\\u8bbe\\u7f6e","aipay":"\\u652f\\u4ed8\\u8bbe\\u7f6e"}}}',
                 'created_at' => '2019-08-13 11:29:31',
-                'updated_at' => '2019-08-15 01:13:48',
+                'updated_at' => '2020-03-05 18:39:16',
             ),
             1 => 
             array (
@@ -48,10 +48,10 @@ class AdminConfigTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'name' => 'base.site_logo',
-                'value' => 'images/130635c367a2eb6bbc8c2398e234832f.png',
+                'value' => 'images/6ba91120d708a8f03a39cc74b401c800.jpg',
                 'description' => '网站logo',
                 'created_at' => '2019-08-13 11:37:08',
-                'updated_at' => '2019-08-14 23:30:59',
+                'updated_at' => '2020-02-15 15:01:08',
             ),
             4 => 
             array (
@@ -129,10 +129,10 @@ class AdminConfigTableSeeder extends Seeder
             array (
                 'id' => 13,
                 'name' => 'notice.content',
-                'value' => '<p style="text-align: center;">去github上给个star呗，小弟感激不尽</p>',
+                'value' => '<p></p><p style="text-align: center;">测试公告</p><p><br></p>',
                 'description' => '公告内容',
                 'created_at' => '2019-08-13 11:42:40',
-                'updated_at' => '2019-08-14 23:29:43',
+                'updated_at' => '2020-03-02 13:45:31',
             ),
             13 => 
             array (
@@ -155,38 +155,38 @@ class AdminConfigTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 16,
-                'name' => 'payjs.mchid',
-                'value' => '1550362101',
+                'name' => 'aipay.mchid',
+                'value' => '1554208111',
                 'description' => 'payjs商户号',
                 'created_at' => '2019-08-13 18:40:10',
-                'updated_at' => '2019-08-13 18:41:20',
+                'updated_at' => '2020-03-05 18:44:04',
             ),
             16 => 
             array (
                 'id' => 17,
-                'name' => 'payjs.key',
-                'value' => 'JirS4Oo6uX0hsIij',
+                'name' => 'aipay.key',
+                'value' => 'nwcpHlrh7LIq4KAE',
                 'description' => 'payjs通信密钥',
                 'created_at' => '2019-08-13 18:40:29',
-                'updated_at' => '2019-08-13 18:41:20',
+                'updated_at' => '2020-03-05 18:44:04',
             ),
             17 => 
             array (
                 'id' => 18,
-                'name' => 'payjs.wechat',
+                'name' => 'aipay.wechat',
                 'value' => '1',
                 'description' => '是否开启微信支付',
                 'created_at' => '2019-08-15 01:12:16',
-                'updated_at' => '2019-08-15 01:18:20',
+                'updated_at' => '2020-03-05 18:45:44',
             ),
             18 => 
             array (
                 'id' => 19,
-                'name' => 'payjs.alipay',
+                'name' => 'aipay.alipay',
                 'value' => '1',
                 'description' => '是否开启支付宝支付',
                 'created_at' => '2019-08-15 01:12:32',
-                'updated_at' => '2019-08-15 01:18:05',
+                'updated_at' => '2020-03-05 18:45:48',
             ),
         ));
         
