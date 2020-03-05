@@ -1,0 +1,12 @@
+{
+	"contentManagement": [
+		{
+			"title": "订单查询",
+			"icon": "icon-text",
+			"href": "/query_orders",
+			"spread": false
+		}
+	]
+}
+
+
